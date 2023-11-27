@@ -1,0 +1,76 @@
+[char]
+type = "arithmetic"
+size = 8
+format = "%c"
+min = "CHAR_MIN"
+max = "CHAR_MAX"
+
+[signed_char]
+type = "arithmetic"
+size = 8
+format = "%c"
+min = "SCHAR_MIN"
+max = "SCHAR_MAX"
+
+[unsigned_char]
+type = "arithmetic"
+size = 8
+format = "%c"
+min = 0
+max = "UCHAR_MAX"
+
+[short]
+type = "arithmetic"
+size = 16
+format = "%hi"
+min = "SHRT_MIN"
+max = "SHRT_MAX"
+
+[unsigned_short]
+type = "arithmetic"
+size = 16
+format = "%hu"
+min = 0
+max = "USHRT_MAX"
+
+[int]
+type = "arithmetic"
+size = 16
+format = "%i"
+min = "INT_MIN"
+max = "INT_MAX"
+
+[unsigned_int]
+type = "arithmetic"
+size = 16
+format = "%u"
+min = 0
+max = "UINT_MAX"
+
+[long]
+type = "arithmetic"
+size = 32
+format = "%li"
+min = "LONG_MIN"
+max = "LONG_MAX"
+
+[unsigned_long]
+type = "arithmetic"
+size = 32
+format = "%lu"
+min = 0
+max = "ULONG_MAX"
+
+[long_long]
+type = "arithmetic"
+size = 64
+format = "%lli"
+min = "LLONG_MIN"
+max = "LLONG_MAX"
+
+[unsigned_long_long]
+type = "arithmetic"
+size = 64
+format = "%llu"
+min = 0
+max = "ULLONG_MAX"
