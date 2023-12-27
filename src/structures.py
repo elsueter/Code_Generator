@@ -1,6 +1,6 @@
 import tomllib
 
-#Basic Types
+# Basic Types
 #   Integer Types
 #       character
 #       int (signed/unsignes)
@@ -8,17 +8,14 @@ import tomllib
 #   Floating Types
 #       real floating
 #       complex
-#Derived Types
+# Derived Types
 #   array
 #   union
 #   function
 #   pointer
 
-class type:
-    def __init__(self) -> None:
-        pass
-
-
 with open("data/types.toml", "rb") as f:
     data = tomllib.load(f)
     print(data['char']['type'])
+
+# Intemediary Reprisentation

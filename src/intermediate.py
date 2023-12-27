@@ -1,15 +1,15 @@
-import os, sys
-path = os.path.abspath("src")
-sys.path.append(path)
-
-import structures
-
 # Intermediary Format
 # [list]
 # <structure>
 # => return
 # (args)
 # {body}
+
+# Intemediary Reprisentation Components
+# <file>
+# <function>
+# <scope>
+# >
 
 # Example C Function
 # int get_largest(int x, int y){
