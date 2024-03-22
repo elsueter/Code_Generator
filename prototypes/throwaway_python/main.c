@@ -1,0 +1,1 @@
+int y = 200;char * x = (char *)0;int main(void) { return 0; }

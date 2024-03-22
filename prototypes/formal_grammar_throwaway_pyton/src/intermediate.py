@@ -61,11 +61,14 @@
 # char              : <character_list>
 # float             : <sign> <digit_list> . <digit_list> f
 #
-# type              : <int>
+# type_literal      : <int>
 #                   | <char>
 #                   | <float>
 #
-# definition        : <type_specificer> <type>
+# type_specificer   : int
+#                   | 
+#
+# definition        : <type_specificer> <type_literal>
 #
 # stmt              : <definition>
 # stmt_list         : <stmt_list> <stmt> | <stmt>
@@ -73,7 +76,11 @@
 # exp               :
 # exp_list          : <exp_list> <exp> | <exp>
 #
-# brackets          : ( <exp_list> | <stmt_list> )
-# braces            : { <exp_list> | <stmt_list> }
+# parameter         : <type> <identifier>
+# parameter_list    : <parameter_list> <parameter> | <parameter>
+#
+# scope             : <exp_list> | <stmt_list>
+#
+#
 #
 # if                : if <brackets <exp_list> > <braces <stmt_list> >

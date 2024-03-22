@@ -1,0 +1,7 @@
+{
+    "networks" : [
+        "dinetwork {node[shape=circle]; main->func_1->exit }",
+        "dinetwork {node[shape=circle]; main->func_3->exit; func_2->func_2::if(a)->func_2::if(a)::if(b)->exit; func_2->func_2::if(a)->exit; func_2->exit; func_1->func_1::if(a && b)->exit; func_1->func_1::if(a || b)->exit; func_1->exit }"
+    ]
+
+}

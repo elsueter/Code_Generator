@@ -1,0 +1,21 @@
+--- grammar ---
+
+chars/int/types...
+expression
+statement
+
+--- intermediary ---
+
+parameter
+body
+
+s-exp "DSL" assumptions/definitions
+
+all "raw" strings here are members of the "grammar"
+<> denotes a litteral string
+. concatinates two "objects"
+() denotes a child node of the grammar for a tree
+
+function . <name> . (parameters) . (body)
+if . (parameters) . (body)
+else . (body)
